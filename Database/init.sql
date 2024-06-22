@@ -1,5 +1,7 @@
 -- Database/init.sql
 
+\c user
+
 -- Schema für die Customer-Datenbank
 CREATE SCHEMA customer;
 
