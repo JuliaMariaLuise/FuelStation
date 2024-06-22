@@ -1,6 +1,7 @@
 package com.fuelstation.javaFxApp;
 
-import javaFX.application.Application;
+import com.fuelstation.App;
+import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;

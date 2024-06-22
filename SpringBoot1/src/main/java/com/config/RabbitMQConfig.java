@@ -1,6 +1,6 @@
-package com.fuelstation.config;
+package com.config;
 
-import com.fuelstation.queue.MessageRecevier;
+import com.queue.MessageRecevier;
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;

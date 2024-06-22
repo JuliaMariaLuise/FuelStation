@@ -17,6 +17,9 @@
       </set>
     </option>
   </component>
+  <component name="ProjectResources">
+    <resource url="http://javafx.com/fxml" location="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_20" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

@@ -1,9 +1,7 @@
-module at.technikum.javafx {
+module com.fuelstation {
     requires javafx.controls;
     requires javafx.fxml;
-    requires java.net.http;
-    requires org.json;
 
-    opens at.technikum.javafx to javafx.fxml;
-    exports com.fuelstation.javaFxApp;
+    opens com.fuelstation to javafx.fxml;
+    exports com.fuelstation;
 }

@@ -9,8 +9,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="my-javafx-app" />
         <module name="SpringBoot1" />
+        <module name="JFXA" />
+        <module name="JFXApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,8 @@
       <module name="fuel-station (1)" target="1.5" />
       <module name="fuel-station (2)" target="17" />
       <module name="JavaFXApp" target="17" />
+      <module name="JFXA" target="17" />
+      <module name="my-javafx-app" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -1,4 +1,4 @@
-package com.fuelstation.queue;
+package com.queue;
 
 import org.springframework.stereotype.Component;
 
