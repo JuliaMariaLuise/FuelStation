@@ -1,4 +1,3 @@
-FROM ubuntu:latest
-LABEL authors="kaise"
+FROM postgres:alpine
 
-ENTRYPOINT ["top", "-b"]
+COPY init.sql /docker-entrypoint-initdb.d/

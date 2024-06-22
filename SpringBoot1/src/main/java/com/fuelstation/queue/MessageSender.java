@@ -1,5 +1,6 @@
-package com.fuelstation.queue.communication;
+package com.fuelstation.queue;
 
+import com.fuelstation.config.RabbitMQConfig;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

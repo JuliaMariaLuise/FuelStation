@@ -1,31 +1,22 @@
 version: "3.8"
 
 services:
-  fuelstation-db:
-    image: postgres:13
+  database:
+    build: Database/.
     ports:
       - 5432:5432
     environment:
-      POSTGRES_DB: fuelstationdb
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
-    volumes:
-      - fuelstation-db-data:/var/lib/postgresql/data
-      - ./Database/init.sql:/docker-entrypoint-initdb.d/init.sql
-
+      - POSTGRES_USER= user
+      - POSTGRES_PASSWORD= password
   adminer:
     image: adminer
     restart: always
     depends_on:
-      - fuelstation-db
+      - database
     ports:
       - 9090:8080
-
   queue:
     image: rabbitmq:3-management
     ports:
       - 5672:5672
       - 15672:15672
-
-volumes:
-  fuelstation-db-data:

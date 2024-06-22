@@ -1,5 +1,6 @@
 package com.fuelstation.config;
 
+import com.fuelstation.queue.MessageRecevier;
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
@@ -28,7 +29,7 @@ public class RabbitMQConfig {
     }
 
     @Bean
-    public MessageListenerAdapter listenerAdapter(MessageReceiver receiver) {
+    public MessageListenerAdapter listenerAdapter(MessageRecevier receiver) {
         return new MessageListenerAdapter(receiver, "receiveMessage");
     }
 }
