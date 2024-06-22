@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DYSProject.iml" filepath="$PROJECT_DIR$/.idea/DYSProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaFXApp/JavaFXApp.iml" filepath="$PROJECT_DIR$/JavaFXApp/JavaFXApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot/SpringBoot/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot/SpringBoot/SpringBoot.iml" />
+    </modules>
+  </component>
+</project>
